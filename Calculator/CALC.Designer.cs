@@ -90,7 +90,6 @@
             this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox1.Size = new System.Drawing.Size(550, 34);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // btn_1
