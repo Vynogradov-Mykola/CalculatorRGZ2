@@ -404,6 +404,10 @@ namespace Calculator
             {
                 result = "";
             }
+            catch (ArgumentException)
+            {
+                result = "";
+            }
             if (SecondNumber != "")
             {
 
