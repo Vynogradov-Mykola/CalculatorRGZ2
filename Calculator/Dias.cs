@@ -414,6 +414,7 @@ namespace Calculator
                 if (conversion == 2)
                 {
                     result = Convert.ToString(Int64.Parse(result), 2);
+                 
                 }
                 if (conversion == 8)
                 {

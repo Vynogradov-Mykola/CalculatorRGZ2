@@ -1145,18 +1145,23 @@ namespace Calculator
                     if (conversion == 2)
                     {
                         MMM = Convert.ToString(c, 2);
+                        MMMConversion = 2;
                     }
                     if (conversion == 8)
                     {
                         MMM = Convert.ToString(c, 8);
-
+                        MMMConversion = 8;
                     }
                     if (conversion == 16)
                     {
                         MMM = Convert.ToString(c, 16);
-
+                        MMMConversion = 16;
                     }
-                    if (conversion == 10) MMM = c.ToString();
+                    if (conversion == 10)
+                    {
+                        MMM = c.ToString();
+                        MMMConversion = 10;
+                    }
                 }
 
                 }
@@ -1224,18 +1229,23 @@ namespace Calculator
                     if (conversion == 2)
                     {
                         MMM = Convert.ToString(c, 2);
+                        MMMConversion = 2;
                     }
                     if (conversion == 8)
                     {
                         MMM = Convert.ToString(c, 8);
-
+                        MMMConversion = 8;
                     }
                     if (conversion == 16)
                     {
                         MMM = Convert.ToString(c, 16);
-
+                        MMMConversion = 16;
                     }
-                    if (conversion == 10) MMM = c.ToString();
+                    if (conversion == 10)
+                    {
+                        MMM = c.ToString();
+                        MMMConversion = 10;
+                    }
                 }
 
             }
